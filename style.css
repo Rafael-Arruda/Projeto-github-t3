@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(8, 85, 85);
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    color: white;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    list-style: none;
+}
+
+li{
+    color: white;
+    font-size: 1.2rem;
+}
